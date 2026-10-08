@@ -1,0 +1,34 @@
+{
+  "tenant_id": "tenant-certassure-eu",
+  "organization_id": "org-northsea-processing",
+  "audit_id": "AUDIT-2026-001",
+  "audit_type": "surveillance",
+  "planned_date": "2026-11-18",
+  "scheme": {
+    "id": "ssc",
+    "name": "Sustainable Supply Chain Scheme",
+    "version": "3.0"
+  },
+  "scope": {
+    "sites": [
+      "SITE-A",
+      "SITE-B"
+    ],
+    "activities": [
+      "seafood_processing",
+      "supplier_verification"
+    ]
+  },
+  "expected_evidence": [
+    {
+      "evidence_type": "supplier_procedure",
+      "site_id": null,
+      "required": true
+    },
+    {
+      "evidence_type": "training_record",
+      "site_id": "SITE-B",
+      "required": true
+    }
+  ]
+}

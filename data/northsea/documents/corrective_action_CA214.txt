@@ -1,0 +1,13 @@
+Document ID: DOC-CA214
+Corrective Action: CA-214
+Related Finding: F-214
+Date: 2026-02-20
+
+The organization will extend the Supplier Verification Register so that all direct
+and subcontracted suppliers whose material enters certified production are subject
+to the same verification process.
+
+All subcontracted material must be linked to an approved supplier entry before
+being accepted into certified production.
+
+The revised procedure will be communicated to procurement and receiving personnel.

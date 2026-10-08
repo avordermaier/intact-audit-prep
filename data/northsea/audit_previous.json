@@ -1,0 +1,40 @@
+{
+  "tenant_id": "tenant-certassure-eu",
+  "organization_id": "org-northsea-processing",
+  "audit_id": "AUDIT-2025-001",
+  "audit_type": "surveillance",
+  "audit_date": "2025-11-12",
+  "scheme": {
+    "id": "ssc",
+    "name": "Sustainable Supply Chain Scheme",
+    "version": "3.0"
+  },
+  "scope": {
+    "sites": [
+      "SITE-A"
+    ],
+    "activities": [
+      "seafood_processing",
+      "supplier_verification"
+    ]
+  },
+  "findings": [
+    {
+      "id": "F-214",
+      "requirement_id": "REQ-7.3",
+      "topic": "supplier_traceability",
+      "severity": "minor",
+      "status": "closed",
+      "description": "Traceability controls did not consistently include subcontracted material."
+    }
+  ],
+  "corrective_actions": [
+    {
+      "id": "CA-214",
+      "finding_id": "F-214",
+      "status": "closed",
+      "closed_at": "2026-03-14",
+      "document_id": "DOC-CA214"
+    }
+  ]
+}

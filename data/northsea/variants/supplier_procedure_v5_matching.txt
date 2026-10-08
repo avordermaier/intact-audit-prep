@@ -1,0 +1,9 @@
+Document ID: DOC-SUPPLIER-PROC-V5
+Title: Supplier Approval and Verification Procedure
+Version: 5
+Effective Date: 2026-09-01
+
+All direct and subcontracted suppliers whose material enters certified production
+must be entered into the Supplier Verification Register before approval.
+
+Supplier approval must be reviewed annually by the Procurement Manager.

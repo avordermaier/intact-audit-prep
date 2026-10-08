@@ -1,0 +1,11 @@
+Document ID: DOC-SUPPLIER-PROC-SCAN
+Title: Supp1ier Appr0val and Verif1cation Proc3dure
+Version: 4
+Effective Date: 2026-08-01
+
+Sect1on 4 - Supp|ier Appr0val
+
+A|| d1r?ct sup?l1ers mu5t be ent3red 1nto th3 Supp1ier Ver1f1cat1on R3g1ster
+b3f0re mat3r1a| ?ay be acc3pt3d 1nto c3rt1f1ed pr0duct1on.
+
+~~ ## ?? sc4n qua1ity too 10w ?? ## ~~

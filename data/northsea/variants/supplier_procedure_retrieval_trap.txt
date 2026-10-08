@@ -1,0 +1,14 @@
+Document ID: DOC-SUPPLIER-PROC-TRAP
+Title: Supplier Approval and Verification Procedure
+Version: 4
+Effective Date: 2026-08-01
+
+Section 4 - Supplier Approval
+
+All direct suppliers must be entered into the Supplier Verification Register
+before material may be accepted into certified production.
+
+Section 8 - Subcontracted Suppliers
+
+Subcontracted suppliers follow the same supplier approval and verification process.
+Their material must be linked to an approved supplier entry before acceptance.

@@ -1,0 +1,16 @@
+Document ID: DOC-SUPPLIER-PROC-V4
+Title: Supplier Approval and Verification Procedure
+Version: 4
+Effective Date: 2026-08-01
+
+Section 4 - Supplier Approval
+
+All direct suppliers must be entered into the Supplier Verification Register
+before material may be accepted into certified production.
+
+Supplier approval must be reviewed annually by the Procurement Manager.
+
+Section 5 - Receiving Controls
+
+Receiving personnel must verify that incoming material originates from a supplier
+listed in the Supplier Verification Register.

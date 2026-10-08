@@ -1,0 +1,1 @@
+"""Thin preparation demo adapter."""

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "audit-prep"
+version = "0.1.0"
+description = "Evidence-backed audit preparation prototype"
+requires-python = ">=3.14"
+dependencies = ["pydantic>=2.10,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/audit_prep"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

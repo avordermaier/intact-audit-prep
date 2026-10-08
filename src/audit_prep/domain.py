@@ -11,7 +11,7 @@ AIState = Literal["enabled", "not_configured", "disabled_by_tenant"]
 
 
 class Contract(BaseModel):
-    model_config = ConfigDict(extra="forbid")
+    model_config = ConfigDict(extra="forbid", revalidate_instances="always")
 
 
 class SchemeContext(Contract):

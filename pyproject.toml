@@ -11,7 +11,11 @@ dependencies = ["pydantic>=2.10,<3"]
 
 [project.optional-dependencies]
 ai = ["openai>=2,<3"]
+demo = ["streamlit>=1.45,<2"]
 dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
+
+[project.scripts]
+audit-prep = "audit_prep.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/audit_prep"]

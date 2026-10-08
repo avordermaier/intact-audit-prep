@@ -126,6 +126,13 @@ def build_synthetic_service(
     if provider == "disabled":
         interpreter = None
     elif provider == "azure":
+        if scenario in {
+            Scenario.INVALID_REFERENCE,
+            Scenario.MODEL_ABSTAINED,
+            Scenario.PROVIDER_FAILURE,
+        }:
+            raise ValueError("This failure simulation is available in offline mode only")
+
         interpreter = AttentionInterpreter(AzureOpenAIInterpretationModel.from_environment())
     elif provider == "offline":
         fixtures = json.loads((data_dir / "offline_responses.json").read_text("utf-8"))

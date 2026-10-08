@@ -10,6 +10,7 @@ requires-python = ">=3.14"
 dependencies = ["pydantic>=2.10,<3"]
 
 [project.optional-dependencies]
+ai = ["openai>=2,<3"]
 dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
 
 [tool.hatch.build.targets.wheel]

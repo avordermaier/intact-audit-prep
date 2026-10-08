@@ -1,0 +1,178 @@
+{
+  "northsea": {
+    "result": "attention_item",
+    "type": "possible_inconsistency",
+    "evidence_document_ids": [
+      "DOC-CA214",
+      "DOC-SUPPLIER-PROC-V4"
+    ],
+    "quotes": [
+      {
+        "document_id": "DOC-CA214",
+        "text": "all direct and subcontracted suppliers"
+      },
+      {
+        "document_id": "DOC-SUPPLIER-PROC-V4",
+        "text": "All direct suppliers must be entered into the Supplier Verification Register"
+      }
+    ],
+    "interpretation": "The current documented supplier procedure may not fully reflect the scope described in CA-214.",
+    "uncertainty": [
+      "The available documents do not establish how subcontracted suppliers are handled in operational practice."
+    ],
+    "missing_information": [
+      "Current operational handling of subcontracted suppliers"
+    ],
+    "suggested_follow_up": "Verify how subcontracted suppliers are currently handled.",
+    "abstention_reason": null
+  },
+  "matching": {
+    "result": "no_attention_item",
+    "type": null,
+    "evidence_document_ids": [
+      "DOC-CA214",
+      "DOC-SUPPLIER-PROC-V5"
+    ],
+    "quotes": [
+      {
+        "document_id": "DOC-CA214",
+        "text": "all direct and subcontracted suppliers"
+      },
+      {
+        "document_id": "DOC-SUPPLIER-PROC-V5",
+        "text": "All direct and subcontracted suppliers whose material enters certified production"
+      }
+    ],
+    "interpretation": null,
+    "uncertainty": [],
+    "missing_information": [],
+    "suggested_follow_up": null,
+    "abstention_reason": null
+  },
+  "retrieval-trap": {
+    "result": "no_attention_item",
+    "type": null,
+    "evidence_document_ids": [
+      "DOC-CA214",
+      "DOC-SUPPLIER-PROC-TRAP"
+    ],
+    "quotes": [
+      {
+        "document_id": "DOC-CA214",
+        "text": "all direct and subcontracted suppliers"
+      },
+      {
+        "document_id": "DOC-SUPPLIER-PROC-TRAP",
+        "text": "Subcontracted suppliers follow the same supplier approval and verification process."
+      }
+    ],
+    "interpretation": null,
+    "uncertainty": [],
+    "missing_information": [],
+    "suggested_follow_up": null,
+    "abstention_reason": null
+  },
+  "conflicting-evidence": {
+    "result": "attention_item",
+    "type": "conflicting_evidence",
+    "evidence_document_ids": [
+      "DOC-CA214",
+      "DOC-SUPPLIER-PROC-V4",
+      "DOC-SITE-B-INSTRUCTION"
+    ],
+    "quotes": [
+      {
+        "document_id": "DOC-CA214",
+        "text": "all direct and subcontracted suppliers"
+      },
+      {
+        "document_id": "DOC-SUPPLIER-PROC-V4",
+        "text": "All direct suppliers must be entered into the Supplier Verification Register"
+      },
+      {
+        "document_id": "DOC-SITE-B-INSTRUCTION",
+        "text": "Supplier approval is reviewed every two years by the Procurement Manager."
+      }
+    ],
+    "interpretation": null,
+    "uncertainty": [
+      "The supplier procedure specifies annual reviews while the Site B instruction specifies reviews every two years. Current operational practice is not established."
+    ],
+    "missing_information": [
+      "Applicable review frequency at Site B"
+    ],
+    "suggested_follow_up": "Clarify which review frequency applies at Site B and review the two documents.",
+    "abstention_reason": null
+  },
+  "invalid-reference": {
+    "result": "attention_item",
+    "type": "possible_inconsistency",
+    "evidence_document_ids": [
+      "DOC-CA214",
+      "DOC-SUPPLIER-PROC-V4"
+    ],
+    "quotes": [
+      {
+        "document_id": "DOC-CA214",
+        "text": "all direct and subcontracted suppliers"
+      },
+      {
+        "document_id": "DOC-SUPPLIER-PROC-V4",
+        "text": "All direct suppliers must be entered into the Supplier Verification Register"
+      }
+    ],
+    "extra_chunk_ids": [
+      "chunk-not-retrieved"
+    ],
+    "interpretation": "The documented scopes may differ.",
+    "uncertainty": [
+      "Operational handling is not established."
+    ],
+    "missing_information": [],
+    "suggested_follow_up": "Verify the current procedure.",
+    "abstention_reason": null
+  },
+  "model-abstained": {
+    "result": "abstain",
+    "type": null,
+    "evidence_document_ids": [
+      "DOC-CA214",
+      "DOC-SUPPLIER-PROC-V4"
+    ],
+    "quotes": [],
+    "interpretation": null,
+    "uncertainty": [],
+    "missing_information": [
+      "Operational handling of subcontracted material"
+    ],
+    "suggested_follow_up": null,
+    "abstention_reason": "The source wording does not establish sufficient operational context."
+  },
+  "prompt-injection": {
+    "result": "attention_item",
+    "type": "possible_inconsistency",
+    "evidence_document_ids": [
+      "DOC-CA214",
+      "DOC-SUPPLIER-PROC-INJECTION"
+    ],
+    "quotes": [
+      {
+        "document_id": "DOC-CA214",
+        "text": "all direct and subcontracted suppliers"
+      },
+      {
+        "document_id": "DOC-SUPPLIER-PROC-INJECTION",
+        "text": "All direct suppliers must be entered into the Supplier Verification Register"
+      }
+    ],
+    "interpretation": "The current documented supplier procedure may not fully reflect the scope described in CA-214.",
+    "uncertainty": [
+      "The available documents do not establish how subcontracted suppliers are handled in operational practice."
+    ],
+    "missing_information": [
+      "Current operational handling of subcontracted suppliers"
+    ],
+    "suggested_follow_up": "Verify how subcontracted suppliers are currently handled.",
+    "abstention_reason": null
+  }
+}

@@ -8,6 +8,7 @@ from audit_prep.domain import (
 )
 from audit_prep.interpretation import build_interpretation_candidates
 from audit_prep.loading import load_case
+from audit_prep.model_provider import FakeInterpretationModel
 from audit_prep.retrieval import chunk_document
 
 
@@ -61,3 +62,10 @@ def response(evidence):
         suggested_follow_up="Verify how subcontracted suppliers are currently handled.",
         abstention_reason=None,
     )
+
+
+def sent_requests(app):
+    model = app.interpreter.model
+    assert isinstance(model, FakeInterpretationModel)
+
+    return model.requests
